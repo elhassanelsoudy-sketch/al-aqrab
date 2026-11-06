@@ -1,0 +1,1849 @@
+{
+  "companyInfo": {
+    "nameAr": "شركة مشاتل غصن بلقيس للتجارة",
+    "nameEn": "Ghosn Balqees Nurseries Trading Co.",
+    "vatNumber": "300500752900003",
+    "crNumber": "1131012345",
+    "activity": "تجارة ونباتات زينة ومستلزمات زراعية وشبكات ري وتصدير تمور",
+    "address": "المملكة العربية السعودية - القصيم - عنيزة - طريق الملك عبدالعزيز",
+    "phone": "0163613360",
+    "mobile": "0505123456",
+    "email": "info@ghosn-balqees.com",
+    "website": "www.ghosn-balqees.com",
+    "currency": "ريال سعودي",
+    "currencySymbol": "ر.س",
+    "taxRate": 15,
+    "fiscalYear": "2026",
+    "fiscalYearStart": "2026-01-01",
+    "fiscalYearEnd": "2026-12-31",
+    "bankName": "مصرف الراجحي",
+    "bankIban": "SA4480000456608010099999",
+    "bankName2": "البنك الأهلي السعودي (SNB)",
+    "bankIban2": "SA0310000012345678901234"
+  },
+  "accounts": [
+    {
+      "code": "1",
+      "nameAr": "الأصول",
+      "nameEn": "Assets",
+      "level": 1,
+      "parent": null,
+      "type": "asset",
+      "nature": "debit"
+    },
+    {
+      "code": "11",
+      "nameAr": "الأصول المتداولة",
+      "nameEn": "Current Assets",
+      "level": 2,
+      "parent": "1",
+      "type": "asset",
+      "nature": "debit"
+    },
+    {
+      "code": "1101",
+      "nameAr": "النقدية والبنوك",
+      "nameEn": "Cash & Banks",
+      "level": 3,
+      "parent": "11",
+      "type": "asset",
+      "nature": "debit"
+    },
+    {
+      "code": "110101",
+      "nameAr": "الصندوق الرئيسي",
+      "nameEn": "Main Cashier",
+      "level": 4,
+      "parent": "1101",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 85000
+    },
+    {
+      "code": "110102",
+      "nameAr": "مصرف الراجحي",
+      "nameEn": "Al Rajhi Bank",
+      "level": 4,
+      "parent": "1101",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 175000
+    },
+    {
+      "code": "110103",
+      "nameAr": "البنك الأهلي السعودي",
+      "nameEn": "SNB Bank",
+      "level": 4,
+      "parent": "1101",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 90000
+    },
+    {
+      "code": "1102",
+      "nameAr": "العملاء والمدينون",
+      "nameEn": "Accounts Receivable",
+      "level": 3,
+      "parent": "11",
+      "type": "asset",
+      "nature": "debit"
+    },
+    {
+      "code": "110201",
+      "nameAr": "مؤسسة النخيل الحديثة",
+      "nameEn": "Al-Nakheel Est",
+      "level": 4,
+      "parent": "1102",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 18500
+    },
+    {
+      "code": "110202",
+      "nameAr": "شركة الأمل للتجارة",
+      "nameEn": "Al-Amal Trading Co",
+      "level": 4,
+      "parent": "1102",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 24300
+    },
+    {
+      "code": "110203",
+      "nameAr": "عملاء نقديون عامون",
+      "nameEn": "Cash Customers",
+      "level": 4,
+      "parent": "1102",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 0
+    },
+    {
+      "code": "1103",
+      "nameAr": "المخزون السلعي",
+      "nameEn": "Inventory",
+      "level": 3,
+      "parent": "11",
+      "type": "asset",
+      "nature": "debit"
+    },
+    {
+      "code": "110301",
+      "nameAr": "مستودع البضائع الرئيسي",
+      "nameEn": "Main Warehouse",
+      "level": 4,
+      "parent": "1103",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 125000
+    },
+    {
+      "code": "1104",
+      "nameAr": "ضريبة القيمة المضافة - مدخلات 15%",
+      "nameEn": "VAT Input Tax 15%",
+      "level": 4,
+      "parent": "11",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 4200
+    },
+    {
+      "code": "12",
+      "nameAr": "الأصول الثابتة",
+      "nameEn": "Fixed Assets",
+      "level": 2,
+      "parent": "1",
+      "type": "asset",
+      "nature": "debit"
+    },
+    {
+      "code": "1201",
+      "nameAr": "أثاث وتجهيزات مكتبية",
+      "nameEn": "Office Furniture",
+      "level": 3,
+      "parent": "12",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 32000
+    },
+    {
+      "code": "1202",
+      "nameAr": "سيارات وشاحنات نقل",
+      "nameEn": "Vehicles & Trucks",
+      "level": 3,
+      "parent": "12",
+      "type": "asset",
+      "nature": "debit",
+      "openingBalance": 75000
+    },
+    {
+      "code": "2",
+      "nameAr": "الخصوم والالتزامات",
+      "nameEn": "Liabilities",
+      "level": 1,
+      "parent": null,
+      "type": "liability",
+      "nature": "credit"
+    },
+    {
+      "code": "21",
+      "nameAr": "الخصوم المتداولة",
+      "nameEn": "Current Liabilities",
+      "level": 2,
+      "parent": "2",
+      "type": "liability",
+      "nature": "credit"
+    },
+    {
+      "code": "2101",
+      "nameAr": "الموردون والدائنون",
+      "nameEn": "Accounts Payable",
+      "level": 3,
+      "parent": "21",
+      "type": "liability",
+      "nature": "credit"
+    },
+    {
+      "code": "210101",
+      "nameAr": "شركة التوريدات الزراعية",
+      "nameEn": "Agri Supply Co",
+      "level": 4,
+      "parent": "2101",
+      "type": "liability",
+      "nature": "credit",
+      "openingBalance": 29000
+    },
+    {
+      "code": "210102",
+      "nameAr": "مصنع الأنابيب والري",
+      "nameEn": "Irrigation Pipes Factory",
+      "level": 4,
+      "parent": "2101",
+      "type": "liability",
+      "nature": "credit",
+      "openingBalance": 15800
+    },
+    {
+      "code": "2102",
+      "nameAr": "ضريبة القيمة المضافة - مخرجات 15%",
+      "nameEn": "VAT Output Tax 15%",
+      "level": 3,
+      "parent": "21",
+      "type": "liability",
+      "nature": "credit",
+      "openingBalance": 8700
+    },
+    {
+      "code": "2103",
+      "nameAr": "مصروفات مستحقة ورواتب",
+      "nameEn": "Accrued Expenses & Salaries",
+      "level": 3,
+      "parent": "21",
+      "type": "liability",
+      "nature": "credit",
+      "openingBalance": 14500
+    },
+    {
+      "code": "3",
+      "nameAr": "حقوق الملكية",
+      "nameEn": "Owner's Equity",
+      "level": 1,
+      "parent": null,
+      "type": "equity",
+      "nature": "credit"
+    },
+    {
+      "code": "31",
+      "nameAr": "رأس المال والاحتياطيات",
+      "nameEn": "Capital & Reserves",
+      "level": 2,
+      "parent": "3",
+      "type": "equity",
+      "nature": "credit"
+    },
+    {
+      "code": "3101",
+      "nameAr": "رأس المال المدفوع",
+      "nameEn": "Paid-in Capital",
+      "level": 3,
+      "parent": "31",
+      "type": "equity",
+      "nature": "credit",
+      "openingBalance": 500000
+    },
+    {
+      "code": "3102",
+      "nameAr": "الأرباح المبقاة المدورة",
+      "nameEn": "Retained Earnings",
+      "level": 3,
+      "parent": "31",
+      "type": "equity",
+      "nature": "credit",
+      "openingBalance": 61000
+    },
+    {
+      "code": "4",
+      "nameAr": "الإيرادات",
+      "nameEn": "Revenues",
+      "level": 1,
+      "parent": null,
+      "type": "revenue",
+      "nature": "credit"
+    },
+    {
+      "code": "41",
+      "nameAr": "إيرادات النشاط الرئيسي",
+      "nameEn": "Operating Revenues",
+      "level": 2,
+      "parent": "4",
+      "type": "revenue",
+      "nature": "credit"
+    },
+    {
+      "code": "4101",
+      "nameAr": "مبيعات الأصناف والبضائع",
+      "nameEn": "Merchandise Sales",
+      "level": 3,
+      "parent": "41",
+      "type": "revenue",
+      "nature": "credit",
+      "openingBalance": 0
+    },
+    {
+      "code": "4102",
+      "nameAr": "إيرادات خدمات ونقل وتركيب",
+      "nameEn": "Service & Installation Revenue",
+      "level": 3,
+      "parent": "41",
+      "type": "revenue",
+      "nature": "credit",
+      "openingBalance": 0
+    },
+    {
+      "code": "4103",
+      "nameAr": "خصم مكتسب من الموردين",
+      "nameEn": "Discounts Received",
+      "level": 3,
+      "parent": "41",
+      "type": "revenue",
+      "nature": "credit",
+      "openingBalance": 0
+    },
+    {
+      "code": "5",
+      "nameAr": "المصروفات",
+      "nameEn": "Expenses",
+      "level": 1,
+      "parent": null,
+      "type": "expense",
+      "nature": "debit"
+    },
+    {
+      "code": "51",
+      "nameAr": "تكلفة المبيعات",
+      "nameEn": "Cost of Sales",
+      "level": 2,
+      "parent": "5",
+      "type": "expense",
+      "nature": "debit"
+    },
+    {
+      "code": "5101",
+      "nameAr": "تكلفة البضاعة المباعة",
+      "nameEn": "Cost of Goods Sold",
+      "level": 3,
+      "parent": "51",
+      "type": "expense",
+      "nature": "debit",
+      "openingBalance": 0
+    },
+    {
+      "code": "52",
+      "nameAr": "المصروفات التشغيلية والعمومية",
+      "nameEn": "Operating & Admin Expenses",
+      "level": 2,
+      "parent": "5",
+      "type": "expense",
+      "nature": "debit"
+    },
+    {
+      "code": "5201",
+      "nameAr": "رواتب وأجور الموظفين",
+      "nameEn": "Salaries & Wages",
+      "level": 3,
+      "parent": "52",
+      "type": "expense",
+      "nature": "debit",
+      "openingBalance": 0
+    },
+    {
+      "code": "5202",
+      "nameAr": "إيجار المعرض والمستودع",
+      "nameEn": "Rent Expense",
+      "level": 3,
+      "parent": "52",
+      "type": "expense",
+      "nature": "debit",
+      "openingBalance": 0
+    },
+    {
+      "code": "5203",
+      "nameAr": "كهرباء ومياه وإنترنت",
+      "nameEn": "Utilities Expense",
+      "level": 3,
+      "parent": "52",
+      "type": "expense",
+      "nature": "debit",
+      "openingBalance": 0
+    },
+    {
+      "code": "5204",
+      "nameAr": "مصروفات صيانة ونظافة",
+      "nameEn": "Maintenance & Cleaning",
+      "level": 3,
+      "parent": "52",
+      "type": "expense",
+      "nature": "debit",
+      "openingBalance": 0
+    },
+    {
+      "code": "5205",
+      "nameAr": "خصم مسموح به للعملاء",
+      "nameEn": "Discounts Allowed",
+      "level": 3,
+      "parent": "52",
+      "type": "expense",
+      "nature": "debit",
+      "openingBalance": 0
+    }
+  ],
+  "journalEntries": [
+    {
+      "id": 1,
+      "entryNumber": "JV-2026-001",
+      "date": "2026-10-01",
+      "docType": "افتتاحي",
+      "refNo": "OP-01",
+      "description": "القيد الافتتاحي لأرصدة أول المدة للسنة المالية 2026",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110101",
+          "accountName": "الصندوق الرئيسي",
+          "debit": 85000,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "110102",
+          "accountName": "مصرف الراجحي",
+          "debit": 175000,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "110103",
+          "accountName": "البنك الأهلي السعودي",
+          "debit": 90000,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "110201",
+          "accountName": "مؤسسة النخيل الحديثة",
+          "debit": 18500,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "110202",
+          "accountName": "شركة الأمل للتجارة",
+          "debit": 24300,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "110301",
+          "accountName": "مستودع البضائع الرئيسي",
+          "debit": 125000,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "1104",
+          "accountName": "ضريبة القيمة المضافة - مدخلات 15%",
+          "debit": 4200,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "1201",
+          "accountName": "أثاث وتجهيزات مكتبية",
+          "debit": 32000,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "1202",
+          "accountName": "سيارات وشاحنات نقل",
+          "debit": 75000,
+          "credit": 0,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "210101",
+          "accountName": "شركة التوريدات الزراعية",
+          "debit": 0,
+          "credit": 29000,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "210102",
+          "accountName": "مصنع الأنابيب والري",
+          "debit": 0,
+          "credit": 15800,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "2102",
+          "accountName": "ضريبة القيمة المضافة - مخرجات 15%",
+          "debit": 0,
+          "credit": 8700,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "2103",
+          "accountName": "مصروفات مستحقة ورواتب",
+          "debit": 0,
+          "credit": 14500,
+          "desc": "رصيد افتتاحي"
+        },
+        {
+          "accountCode": "3101",
+          "debit": 0,
+          "credit": 500000,
+          "desc": "رصيد افتتاحي",
+          "accountName": "رأس المال المدفوع"
+        },
+        {
+          "accountCode": "3102",
+          "debit": 0,
+          "credit": 61000,
+          "desc": "رصيد افتتاحي",
+          "accountName": "الأرباح المبقاة المدورة"
+        }
+      ]
+    },
+    {
+      "entryNumber": "JV-BALANCED-01",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110101",
+          "debit": 150,
+          "credit": 0,
+          "accountName": "الصندوق الرئيسي"
+        },
+        {
+          "accountCode": "4101",
+          "debit": 0,
+          "credit": 150,
+          "accountName": "مبيعات الأصناف والبضائع"
+        }
+      ],
+      "id": 1792755615054,
+      "timestamp": "2026-10-23T11:40:15.054Z",
+      "branchId": 1,
+      "branchName": "المركز الرئيسي - الرياض",
+      "date": "2026-10-01",
+      "docType": "قيد يومية",
+      "refNo": "JV-BALANCED-01",
+      "description": "قيد يومية محاسبي رقم JV-BALANCED-01"
+    },
+    {
+      "id": 1792757054506,
+      "entryNumber": "JV-TRF-01002",
+      "date": "2026-10-23",
+      "docType": "تحويل مخزني",
+      "refNo": "TRF-01002",
+      "description": "قيد تحويل مخزني تلقائي رقم TRF-01002 من المركز الرئيسي - الرياض إلى فرع بريدة",
+      "isPosted": true,
+      "branchId": 1,
+      "lines": [
+        {
+          "accountCode": "110301",
+          "accountName": "مستودع البضائع (فرع بريدة)",
+          "debit": 600,
+          "credit": 0,
+          "costCenterId": 3,
+          "desc": "إيداع بضاعة محولة من المركز الرئيسي - الرياض"
+        },
+        {
+          "accountCode": "110301",
+          "accountName": "مستودع البضائع (المركز الرئيسي - الرياض)",
+          "debit": 0,
+          "credit": 600,
+          "costCenterId": 1,
+          "desc": "صرف بضاعة محولة إلى فرع بريدة"
+        }
+      ]
+    },
+    {
+      "id": 1792695505664,
+      "entryNumber": "JV-AUTO-23885",
+      "date": "2026-10-22",
+      "branchId": 1,
+      "projectId": null,
+      "docType": "فاتورة مبيعات",
+      "refNo": "23885",
+      "description": "قيد مبيعات تلقائي للفاتورة رقم 23885",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110101",
+          "accountName": "الصندوق الرئيسي",
+          "debit": 931.5,
+          "credit": 0,
+          "costCenterId": 1,
+          "desc": "فاتورة مبيعات (نقدي) رقم #23885"
+        },
+        {
+          "accountCode": "4101",
+          "accountName": "مبيعات الأصناف والبضائع",
+          "debit": 0,
+          "credit": 810,
+          "costCenterId": 1,
+          "desc": "صافي مبيعات فاتورة #23885"
+        },
+        {
+          "accountCode": "2102",
+          "accountName": "ضريبة القيمة المضافة - مخرجات 15%",
+          "debit": 0,
+          "credit": 121.5,
+          "costCenterId": 1,
+          "desc": "ضريبة 15% فاتورة مبيعات #23885"
+        }
+      ]
+    },
+    {
+      "id": 1792695507632,
+      "entryNumber": "JV-AUTO-23886",
+      "date": "2026-10-22",
+      "branchId": 2,
+      "projectId": null,
+      "docType": "فاتورة مبيعات",
+      "refNo": "23886",
+      "description": "قيد مبيعات تلقائي للفاتورة رقم 23886",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110101",
+          "accountName": "الصندوق الرئيسي",
+          "debit": 931.5,
+          "credit": 0,
+          "costCenterId": 2,
+          "desc": "فاتورة مبيعات (نقدي) رقم #23886"
+        },
+        {
+          "accountCode": "4101",
+          "accountName": "مبيعات الأصناف والبضائع",
+          "debit": 0,
+          "credit": 810,
+          "costCenterId": 2,
+          "desc": "صافي مبيعات فاتورة #23886"
+        },
+        {
+          "accountCode": "2102",
+          "accountName": "ضريبة القيمة المضافة - مخرجات 15%",
+          "debit": 0,
+          "credit": 121.5,
+          "costCenterId": 2,
+          "desc": "ضريبة 15% فاتورة مبيعات #23886"
+        }
+      ]
+    },
+    {
+      "id": 1792700062003,
+      "entryNumber": "JV-AUTO-1450",
+      "date": "2026-10-14",
+      "branchId": 1,
+      "projectId": null,
+      "docType": "فاتورة مشتريات",
+      "refNo": "1450",
+      "description": "قيد مشتريات تلقائي للفاتورة رقم 1450",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110301",
+          "accountName": "مستودع البضائع الرئيسي",
+          "debit": 1757.5,
+          "credit": 0,
+          "costCenterId": 1,
+          "desc": "مشتريات بضاعة فاتورة رقم #1450"
+        },
+        {
+          "accountCode": "1104",
+          "accountName": "ضريبة القيمة المضافة - مدخلات 15%",
+          "debit": 263.63,
+          "credit": 0,
+          "costCenterId": 1,
+          "desc": "ضريبة مدخلات فاتورة مشتريات #1450"
+        },
+        {
+          "accountCode": "210101",
+          "accountName": "شركة التوريدات الزراعية",
+          "debit": 0,
+          "credit": 2021.13,
+          "costCenterId": 1,
+          "desc": "مستحق فاتورة مشتريات #1450"
+        }
+      ]
+    },
+    {
+      "id": 1793365922095,
+      "entryNumber": "JV-TRF-01001",
+      "date": "2026-10-23",
+      "docType": "تحويل مخزني",
+      "refNo": "TRF-01001",
+      "description": "قيد تحويل مخزني تلقائي رقم TRF-01001 من المركز الرئيسي - الرياض إلى فرع عنيزة",
+      "isPosted": true,
+      "branchId": 1,
+      "lines": [
+        {
+          "accountCode": "110301",
+          "accountName": "مستودع البضائع (فرع عنيزة)",
+          "debit": 175,
+          "credit": 0,
+          "costCenterId": 2,
+          "desc": "إيداع بضاعة محولة من المركز الرئيسي - الرياض"
+        },
+        {
+          "accountCode": "110301",
+          "accountName": "مستودع البضائع (المركز الرئيسي - الرياض)",
+          "debit": 0,
+          "credit": 175,
+          "costCenterId": 1,
+          "desc": "صرف بضاعة محولة إلى فرع عنيزة"
+        }
+      ]
+    },
+    {
+      "id": 1792700061753,
+      "entryNumber": "JV-AUTO-23887",
+      "date": "2026-10-22",
+      "branchId": 1,
+      "projectId": null,
+      "docType": "فاتورة مبيعات",
+      "refNo": "23887",
+      "description": "قيد مبيعات تلقائي للفاتورة رقم 23887",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110101",
+          "accountName": "الصندوق الرئيسي",
+          "debit": 669.3,
+          "credit": 0,
+          "costCenterId": 1,
+          "desc": "فاتورة مبيعات (نقدي) رقم #23887"
+        },
+        {
+          "accountCode": "4101",
+          "accountName": "مبيعات الأصناف والبضائع",
+          "debit": 0,
+          "credit": 582,
+          "costCenterId": 1,
+          "desc": "صافي مبيعات فاتورة #23887"
+        },
+        {
+          "accountCode": "2102",
+          "accountName": "ضريبة القيمة المضافة - مخرجات 15%",
+          "debit": 0,
+          "credit": 87.3,
+          "costCenterId": 1,
+          "desc": "ضريبة 15% فاتورة مبيعات #23887"
+        }
+      ]
+    },
+    {
+      "id": 1793375246635,
+      "entryNumber": "JV-AUTO-INV-023888",
+      "date": "2026/10/14",
+      "branchId": 1,
+      "projectId": null,
+      "docType": "فاتورة مبيعات",
+      "refNo": "INV-023888",
+      "description": "قيد مبيعات تلقائي للفاتورة رقم INV-023888",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110201",
+          "accountName": "مؤسسة النخيل الحديثة",
+          "debit": 931.5,
+          "credit": 0,
+          "costCenterId": 1,
+          "desc": "فاتورة مبيعات (نقدي) رقم #INV-023888"
+        },
+        {
+          "accountCode": "4101",
+          "accountName": "مبيعات الأصناف والبضائع",
+          "debit": 0,
+          "credit": 810,
+          "costCenterId": 1,
+          "desc": "صافي مبيعات فاتورة #INV-023888"
+        },
+        {
+          "accountCode": "2102",
+          "accountName": "ضريبة القيمة المضافة - مخرجات 15%",
+          "debit": 0,
+          "credit": 121.5,
+          "costCenterId": 1,
+          "desc": "ضريبة 15% فاتورة مبيعات #INV-023888"
+        }
+      ]
+    },
+    {
+      "id": 1793956955094,
+      "entryNumber": "JV-VOUCHER-RV-2026-001",
+      "date": "2026-10-25",
+      "docType": "سند قبض",
+      "refNo": "RV-2026-001",
+      "description": "قيد آلي لسند قبض رقم #RV-2026-001",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110102",
+          "accountName": "مصرف الراجحي",
+          "debit": 15000,
+          "credit": 0,
+          "desc": "سند قبض رقم #RV-2026-001 - تحصيل دفعة بنكية من شركة المقاولات الحديثة"
+        },
+        {
+          "accountCode": "110201",
+          "accountName": "مؤسسة النخيل الحديثة",
+          "debit": 0,
+          "credit": 15000,
+          "desc": "سند قبض رقم #RV-2026-001 - تحصيل دفعة بنكية من شركة المقاولات الحديثة"
+        }
+      ]
+    },
+    {
+      "id": 1793956955104,
+      "entryNumber": "JV-VOUCHER-PV-2026-001",
+      "date": "2026-10-26",
+      "docType": "سند صرف",
+      "refNo": "PV-2026-001",
+      "description": "قيد آلي لسند صرف رقم #PV-2026-001",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "210101",
+          "accountName": "شركة التوريدات الزراعية",
+          "debit": 8500,
+          "credit": 0,
+          "desc": "سند صرف رقم #PV-2026-001 - سداد نقدي لمؤسسة التوريدات الزراعية"
+        },
+        {
+          "accountCode": "110101",
+          "accountName": "الصندوق الرئيسي",
+          "debit": 0,
+          "credit": 8500,
+          "desc": "سند صرف رقم #PV-2026-001 - سداد نقدي لمؤسسة التوريدات الزراعية"
+        }
+      ]
+    },
+    {
+      "id": 1793957050361,
+      "entryNumber": "JV-AUTO-INV-023889",
+      "date": "2026/10/14",
+      "branchId": 1,
+      "projectId": null,
+      "docType": "فاتورة مبيعات",
+      "refNo": "INV-023889",
+      "description": "قيد آلي لـ فاتورة مبيعات رقم INV-023889",
+      "isPosted": true,
+      "lines": [
+        {
+          "accountCode": "110201",
+          "accountName": "مؤسسة النخيل الحديثة",
+          "debit": 931.5,
+          "credit": 0,
+          "costCenterId": 1,
+          "desc": "فاتورة مبيعات (نقدي) رقم #INV-023889"
+        },
+        {
+          "accountCode": "4101",
+          "accountName": "مبيعات الأصناف والبضائع",
+          "debit": 0,
+          "credit": 810,
+          "costCenterId": 1,
+          "desc": "صافي مبيعات فاتورة #INV-023889"
+        },
+        {
+          "accountCode": "2102",
+          "accountName": "ضريبة القيمة المضافة - مخرجات 15%",
+          "debit": 0,
+          "credit": 121.5,
+          "costCenterId": 1,
+          "desc": "ضريبة 15% فاتورة مبيعات #INV-023889"
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "invoiceNumber": "23885",
+      "type": "sales",
+      "docType": "فاتورة مبيعات",
+      "isPosted": true,
+      "date": "2026-10-22",
+      "totalQuantity": 7,
+      "subtotal": 810,
+      "vat15Percent": 121.5,
+      "netTotal": 931.5,
+      "customerCode": "110101",
+      "customerName": "الصندوق الرئيسي",
+      "items": [
+        {
+          "rowNumber": 1,
+          "code": "1015",
+          "name": "جداري حديد",
+          "unit": "حبة",
+          "qty": 2,
+          "price": 120,
+          "subtotal": 240
+        },
+        {
+          "rowNumber": 2,
+          "code": "1001",
+          "name": "نخلة واشنطونيا كبيرة",
+          "unit": "حبة",
+          "qty": 1,
+          "price": 350,
+          "subtotal": 315
+        },
+        {
+          "rowNumber": 3,
+          "code": "1016",
+          "name": "لسان عصفور كبير",
+          "unit": "حبة",
+          "qty": 3,
+          "price": 85,
+          "subtotal": 255
+        }
+      ],
+      "id": 1792695505663,
+      "timestamp": "2026-10-22T18:58:25.663Z",
+      "branchId": 1,
+      "journalEntryNumber": "JV-AUTO-23885"
+    },
+    {
+      "invoiceNumber": "23886",
+      "type": "sales",
+      "docType": "فاتورة مبيعات",
+      "isPosted": true,
+      "date": "2026-10-22",
+      "branchId": 2,
+      "branch": "فرع عنيزة - القصيم",
+      "createdBy": "كاشير فرع عنيزة: فهد",
+      "totalQuantity": 7,
+      "subtotal": 810,
+      "vat15Percent": 121.5,
+      "netTotal": 931.5,
+      "customerCode": "110101",
+      "customerName": "الصندوق الرئيسي",
+      "items": [
+        {
+          "rowNumber": 1,
+          "code": "1015",
+          "name": "جداري حديد",
+          "unit": "حبة",
+          "qty": 2,
+          "price": 120,
+          "subtotal": 240
+        },
+        {
+          "rowNumber": 2,
+          "code": "1001",
+          "name": "نخلة واشنطونيا كبيرة",
+          "unit": "حبة",
+          "qty": 1,
+          "price": 350,
+          "subtotal": 315
+        },
+        {
+          "rowNumber": 3,
+          "code": "1016",
+          "name": "لسان عصفور كبير",
+          "unit": "حبة",
+          "qty": 3,
+          "price": 85,
+          "subtotal": 255
+        }
+      ],
+      "id": 1792695507630,
+      "timestamp": "2026-10-22T18:58:27.630Z",
+      "journalEntryNumber": "JV-AUTO-23886"
+    },
+    {
+      "invoiceNumber": "23887",
+      "type": "sales",
+      "docType": "فاتورة مبيعات",
+      "isPosted": true,
+      "date": "2026-10-22",
+      "branchId": 1,
+      "branch": "المركز الرئيسي - الرياض",
+      "createdBy": "مدير النظام: الحسن",
+      "totalQuantity": 7,
+      "subtotal": 582,
+      "vat15Percent": 87.3,
+      "netTotal": 669.3,
+      "customerCode": "110101",
+      "customerName": "الصندوق الرئيسي",
+      "items": [
+        {
+          "rowNumber": 1,
+          "code": "1015",
+          "name": "جداري حديد",
+          "unit": "حبة",
+          "qty": 2,
+          "price": 6,
+          "subtotal": 12
+        },
+        {
+          "rowNumber": 2,
+          "code": "1001",
+          "name": "نخلة واشنطونيا كبيرة",
+          "unit": "حبة",
+          "qty": 1,
+          "price": 350,
+          "subtotal": 315
+        },
+        {
+          "rowNumber": 3,
+          "code": "1016",
+          "name": "لسان عصفور كبير",
+          "unit": "حبة",
+          "qty": 3,
+          "price": 85,
+          "subtotal": 255
+        }
+      ],
+      "id": 1792700061750,
+      "timestamp": "2026-10-22T20:14:21.750Z",
+      "journalEntryNumber": "JV-AUTO-23887"
+    },
+    {
+      "invoiceNumber": "1450",
+      "type": "purchase",
+      "docType": "فاتورة مشتريات",
+      "isPosted": true,
+      "date": "2026-10-14",
+      "branchId": 1,
+      "branch": "المركز الرئيسي - الرياض",
+      "totalQuantity": 15,
+      "subtotal": 1757.5,
+      "vat15Percent": 263.63,
+      "netTotal": 2021.13,
+      "paymentMethod": "نقدي",
+      "supplierCode": "210101",
+      "supplierName": "شركة التوريدات الزراعية",
+      "items": [
+        {
+          "rowNumber": 1,
+          "code": "1015",
+          "name": "جداري حديد",
+          "unit": "حبة",
+          "qty": 10,
+          "price": 95,
+          "discount": 0,
+          "subtotal": 950
+        },
+        {
+          "rowNumber": 2,
+          "code": "1008",
+          "name": "مستطيل عنبر كبير الوان",
+          "unit": "حبة",
+          "qty": 5,
+          "price": 170,
+          "discount": 5,
+          "subtotal": 807.5
+        }
+      ],
+      "id": 1792700061999,
+      "timestamp": "2026-10-22T20:20:00.000Z",
+      "journalEntryNumber": "JV-AUTO-1450"
+    },
+    {
+      "invoiceNumber": "INV-023888",
+      "type": "sales",
+      "docType": "فاتورة مبيعات",
+      "isPosted": true,
+      "date": "2026/10/14",
+      "totalQuantity": 6,
+      "subtotal": 810,
+      "vat15Percent": 121.5,
+      "netTotal": 931.5,
+      "paymentMethod": "نقدي",
+      "customerCode": "110201",
+      "customerName": "مؤسسة النخيل الحديثة",
+      "items": [
+        {
+          "rowNumber": 1,
+          "code": "1015",
+          "name": "جداري حديد",
+          "unit": "حبة",
+          "qty": 2,
+          "price": 120,
+          "subtotal": 240
+        },
+        {
+          "rowNumber": 2,
+          "code": "1001",
+          "name": "نخلة واشنطونيا كبيرة",
+          "unit": "حبة",
+          "qty": 1,
+          "price": 350,
+          "subtotal": 315
+        },
+        {
+          "rowNumber": 3,
+          "code": "1016",
+          "name": "لسان عصفور كبير",
+          "unit": "حبة",
+          "qty": 3,
+          "price": 85,
+          "subtotal": 255
+        }
+      ],
+      "id": 1793375246632,
+      "timestamp": "2026-10-30T15:47:26.632Z",
+      "branchId": 1,
+      "branch": "المركز الرئيسي",
+      "projectId": null,
+      "journalEntryNumber": "JV-AUTO-INV-023888"
+    },
+    {
+      "invoiceNumber": "INV-023889",
+      "type": "sales",
+      "docType": "فاتورة مبيعات",
+      "isPosted": true,
+      "date": "2026/10/14",
+      "totalQuantity": 6,
+      "subtotal": 810,
+      "vat15Percent": 121.5,
+      "netTotal": 931.5,
+      "paymentMethod": "نقدي",
+      "customerCode": "110201",
+      "customerName": "مؤسسة النخيل الحديثة",
+      "items": [
+        {
+          "rowNumber": 1,
+          "code": "1015",
+          "name": "جداري حديد",
+          "unit": "حبة",
+          "qty": 2,
+          "price": 120,
+          "subtotal": 240
+        },
+        {
+          "rowNumber": 2,
+          "code": "1001",
+          "name": "نخلة واشنطونيا كبيرة",
+          "unit": "حبة",
+          "qty": 1,
+          "price": 350,
+          "subtotal": 315
+        },
+        {
+          "rowNumber": 3,
+          "code": "1016",
+          "name": "لسان عصفور كبير",
+          "unit": "حبة",
+          "qty": 3,
+          "price": 85,
+          "subtotal": 255
+        }
+      ],
+      "id": 1793957050356,
+      "timestamp": "2026-11-06T09:24:10.356Z",
+      "branchId": 1,
+      "branch": "المركز الرئيسي",
+      "projectId": null,
+      "journalEntryNumber": "JV-AUTO-INV-023889"
+    }
+  ],
+  "vouchers": [
+    {
+      "voucherNumber": "RV-2026-001",
+      "type": "receipt",
+      "date": "2026-10-25",
+      "amount": 15000,
+      "treasuryCode": "110102",
+      "treasuryName": "مصرف الراجحي - الحساب الجاري",
+      "accountCode": "110201",
+      "accountName": "عملاء محليون - ذمم تجارية",
+      "description": "تحصيل دفعة بنكية من شركة المقاولات الحديثة",
+      "paymentMethod": "Bank",
+      "isPosted": true,
+      "id": 1793956923854,
+      "timestamp": "2026-11-06T09:22:03.854Z"
+    },
+    {
+      "voucherNumber": "PV-2026-001",
+      "type": "payment",
+      "date": "2026-10-26",
+      "amount": 8500,
+      "treasuryCode": "110101",
+      "treasuryName": "الصندوق الرئيسي - الرياض",
+      "accountCode": "210101",
+      "accountName": "موردو الأصول والمستلزمات",
+      "description": "سداد نقدي لمؤسسة التوريدات الزراعية",
+      "paymentMethod": "Cash",
+      "isPosted": true,
+      "id": 1793956923883,
+      "timestamp": "2026-11-06T09:22:03.883Z"
+    },
+    {
+      "voucherNumber": "RV-2026-001",
+      "type": "receipt",
+      "date": "2026-10-25",
+      "amount": 15000,
+      "treasuryCode": "110102",
+      "treasuryName": "مصرف الراجحي - الحساب الجاري",
+      "accountCode": "110201",
+      "accountName": "عملاء محليون - ذمم تجارية",
+      "description": "تحصيل دفعة بنكية من شركة المقاولات الحديثة",
+      "paymentMethod": "Bank",
+      "isPosted": true,
+      "id": 1793956955092,
+      "timestamp": "2026-11-06T09:22:35.092Z"
+    },
+    {
+      "voucherNumber": "PV-2026-001",
+      "type": "payment",
+      "date": "2026-10-26",
+      "amount": 8500,
+      "treasuryCode": "110101",
+      "treasuryName": "الصندوق الرئيسي - الرياض",
+      "accountCode": "210101",
+      "accountName": "موردو الأصول والمستلزمات",
+      "description": "سداد نقدي لمؤسسة التوريدات الزراعية",
+      "paymentMethod": "Cash",
+      "isPosted": true,
+      "id": 1793956955102,
+      "timestamp": "2026-11-06T09:22:35.102Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "code": "110201",
+      "name": "مؤسسة النخيل الحديثة",
+      "phone": "0501234567",
+      "vatNumber": "300123456700003",
+      "balance": 5363
+    },
+    {
+      "id": "2",
+      "code": "110202",
+      "name": "شركة الأمل للتجارة",
+      "phone": "0559876543",
+      "vatNumber": "300987654300003",
+      "balance": 24300
+    },
+    {
+      "id": "3",
+      "code": "110203",
+      "name": "عملاء نقديون عامون",
+      "phone": "0500000000",
+      "vatNumber": "",
+      "balance": 0
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "1",
+      "code": "210101",
+      "name": "شركة التوريدات الزراعية",
+      "phone": "0112345678",
+      "vatNumber": "310234567800003",
+      "balance": 22521.13
+    },
+    {
+      "id": "2",
+      "code": "210102",
+      "name": "مصنع الأنابيب والري",
+      "phone": "0123456789",
+      "vatNumber": "310345678900003",
+      "balance": 15800
+    }
+  ],
+  "items": [
+    {
+      "code": "1001",
+      "name": "نخلة واشنطونيا كبيرة",
+      "unit": "حبة",
+      "price": 450,
+      "cost": 280,
+      "qty": 83,
+      "group": "نخيل زينة"
+    },
+    {
+      "code": "1002",
+      "name": "نخلة واشنطونيا وسط",
+      "unit": "حبة",
+      "price": 300,
+      "cost": 190,
+      "qty": 120,
+      "group": "نخيل زينة"
+    },
+    {
+      "code": "1003",
+      "name": "نخلة بلدي",
+      "unit": "حبة",
+      "price": 250,
+      "cost": 160,
+      "qty": 65,
+      "group": "نخيل بلدي"
+    },
+    {
+      "code": "1008",
+      "name": "مستطيل عنبر كبير الوان",
+      "unit": "حبة",
+      "price": 170,
+      "cost": 110,
+      "qty": 240,
+      "group": "مستلزمات إنارة"
+    },
+    {
+      "code": "1015",
+      "name": "جداري حديد",
+      "unit": "حبة",
+      "price": 95,
+      "cost": 60,
+      "qty": 306,
+      "group": "إضاءة حدائق"
+    },
+    {
+      "code": "1016",
+      "name": "جداري فراشة",
+      "unit": "حبة",
+      "price": 120,
+      "cost": 75,
+      "qty": 144,
+      "group": "إضاءة حدائق"
+    },
+    {
+      "code": "1004",
+      "name": "نخل برحي قصيم نخب أول",
+      "unit": "حبة",
+      "group": "تمور فاخرة",
+      "cost": 320,
+      "price": 550,
+      "qty": 50,
+      "reorderLimit": 50,
+      "id": 1
+    },
+    {
+      "code": "1005",
+      "name": "شتلات زيتون إسباني معمر",
+      "unit": "شتلة",
+      "group": "أشجار ونخيل",
+      "cost": 95,
+      "price": 160,
+      "qty": 180,
+      "reorderLimit": 50,
+      "id": 2
+    },
+    {
+      "code": "1006",
+      "name": "أحواض فخار تراثية كبيرة",
+      "unit": "حبة",
+      "group": "مستلزمات ديكور",
+      "cost": 130,
+      "price": 210,
+      "qty": 75,
+      "reorderLimit": 50,
+      "id": 3
+    },
+    {
+      "code": "1007",
+      "name": "شبكة ري بالتنقيط 100م متكاملة",
+      "unit": "لفة",
+      "group": "شبكات ومضخات",
+      "cost": 180,
+      "price": 290,
+      "qty": 60,
+      "reorderLimit": 50,
+      "id": 4
+    },
+    {
+      "code": "1009",
+      "name": "سماد عضوي نباتي معالج 50كجم",
+      "unit": "كيس",
+      "group": "أسمدة ومغذيات",
+      "cost": 35,
+      "price": 65,
+      "qty": 350,
+      "reorderLimit": 50,
+      "id": 5
+    },
+    {
+      "code": "1010",
+      "name": "مضخة مياه زراعية غاطسة 2 حصان",
+      "unit": "حبة",
+      "group": "شبكات ومضخات",
+      "cost": 750,
+      "price": 1150,
+      "qty": 25,
+      "reorderLimit": 50,
+      "id": 6
+    }
+  ],
+  "systemSetup": {
+    "header": {
+      "r1": "مشاتل غصن بلقيس",
+      "r2": "فرع شركة صالح واحمد الناصر الصوان - عنيزة",
+      "r3": "الرقم الضريبي : 300500752900003",
+      "r4": "هاتف : 3613360  فاكس 3642116"
+    },
+    "general": {
+      "vatRateVal": 15,
+      "defaultPaymentType": "نقدي"
+    },
+    "autoEntries": {
+      "cash": "1020001",
+      "pl": "2014001",
+      "openingStock": "1021001",
+      "stock": "1021002"
+    }
+  },
+  "employees": [
+    {
+      "id": "1",
+      "code": "EMP-101",
+      "name": "أحمد عبد الله الزهراني",
+      "jobTitle": "مدير الحسابات والمالية",
+      "department": "الإدارة المالية",
+      "basicSalary": 12000,
+      "housingAllowance": 3000,
+      "transportAllowance": 1000,
+      "otherAllowance": 500,
+      "gosiRate": 9.75,
+      "bankName": "مصرف الراجحي",
+      "iban": "SA0380000123456789012345",
+      "phone": "0501112233",
+      "status": "نشط"
+    },
+    {
+      "id": "2",
+      "code": "EMP-102",
+      "name": "محمد خالد العتيبي",
+      "jobTitle": "مسؤول مبيعات وتسويق",
+      "department": "المبيعات",
+      "basicSalary": 6500,
+      "housingAllowance": 1500,
+      "transportAllowance": 800,
+      "otherAllowance": 400,
+      "gosiRate": 9.75,
+      "bankName": "البنك الأهلي",
+      "iban": "SA0310000987654321098765",
+      "phone": "0552223344",
+      "status": "نشط"
+    },
+    {
+      "id": "3",
+      "code": "EMP-103",
+      "name": "إبراهيم محمود السيد",
+      "jobTitle": "أمين مستودع",
+      "department": "المستودعات والمخازن",
+      "basicSalary": 4500,
+      "housingAllowance": 1000,
+      "transportAllowance": 500,
+      "otherAllowance": 200,
+      "gosiRate": 9.75,
+      "bankName": "بنك الرياض",
+      "iban": "SA0320000555666777888999",
+      "phone": "0543334455",
+      "status": "نشط"
+    },
+    {
+      "id": "4",
+      "code": "EMP-104",
+      "name": "عبد الرحمن الشهري",
+      "jobTitle": "مشرف مشتل وزراعة",
+      "department": "العمليات",
+      "basicSalary": 5000,
+      "housingAllowance": 1200,
+      "transportAllowance": 600,
+      "otherAllowance": 300,
+      "gosiRate": 9.75,
+      "bankName": "مصرف الإنماء",
+      "iban": "SA0330000111222333444555",
+      "phone": "0564445566",
+      "status": "نشط"
+    },
+    {
+      "id": "5",
+      "code": "EMP-105",
+      "name": "طارق عثمان المنصور",
+      "jobTitle": "سائق ومندوب توصيل",
+      "department": "الخدمات اللوجستية",
+      "basicSalary": 3800,
+      "housingAllowance": 800,
+      "transportAllowance": 400,
+      "otherAllowance": 150,
+      "gosiRate": 9.75,
+      "bankName": "البنك العربي",
+      "iban": "SA0340000999888777666555",
+      "phone": "0575556677",
+      "status": "نشط"
+    }
+  ],
+  "payrolls": [
+    {
+      "month": "2026-10",
+      "totals": {
+        "totalBasic": 31800,
+        "totalHousing": 7500,
+        "totalTransport": 3300,
+        "totalGross": 44150,
+        "totalGosi": 3833,
+        "totalDeductions": 3833,
+        "totalNet": 40317
+      },
+      "items": [
+        {
+          "empId": "1",
+          "code": "EMP-101",
+          "name": "أحمد عبد الله الزهراني",
+          "jobTitle": "مدير الحسابات والمالية",
+          "department": "الإدارة المالية",
+          "basicSalary": 12000,
+          "housingAllowance": 3000,
+          "transportAllowance": 1000,
+          "otherAllowance": 500,
+          "overtime": 0,
+          "grossSalary": 16500,
+          "gosiDeduction": 1463,
+          "otherDeduction": 0,
+          "totalDeductions": 1463,
+          "netSalary": 15037,
+          "bankName": "مصرف الراجحي",
+          "iban": "SA0380000123456789012345"
+        },
+        {
+          "empId": "2",
+          "code": "EMP-102",
+          "name": "محمد خالد العتيبي",
+          "jobTitle": "مسؤول مبيعات وتسويق",
+          "department": "المبيعات",
+          "basicSalary": 6500,
+          "housingAllowance": 1500,
+          "transportAllowance": 800,
+          "otherAllowance": 400,
+          "overtime": 0,
+          "grossSalary": 9200,
+          "gosiDeduction": 780,
+          "otherDeduction": 0,
+          "totalDeductions": 780,
+          "netSalary": 8420,
+          "bankName": "البنك الأهلي",
+          "iban": "SA0310000987654321098765"
+        },
+        {
+          "empId": "3",
+          "code": "EMP-103",
+          "name": "إبراهيم محمود السيد",
+          "jobTitle": "أمين مستودع",
+          "department": "المستودعات والمخازن",
+          "basicSalary": 4500,
+          "housingAllowance": 1000,
+          "transportAllowance": 500,
+          "otherAllowance": 200,
+          "overtime": 0,
+          "grossSalary": 6200,
+          "gosiDeduction": 536,
+          "otherDeduction": 0,
+          "totalDeductions": 536,
+          "netSalary": 5664,
+          "bankName": "بنك الرياض",
+          "iban": "SA0320000555666777888999"
+        },
+        {
+          "empId": "4",
+          "code": "EMP-104",
+          "name": "عبد الرحمن الشهري",
+          "jobTitle": "مشرف مشتل وزراعة",
+          "department": "العمليات",
+          "basicSalary": 5000,
+          "housingAllowance": 1200,
+          "transportAllowance": 600,
+          "otherAllowance": 300,
+          "overtime": 0,
+          "grossSalary": 7100,
+          "gosiDeduction": 605,
+          "otherDeduction": 0,
+          "totalDeductions": 605,
+          "netSalary": 6495,
+          "bankName": "مصرف الإنماء",
+          "iban": "SA0330000111222333444555"
+        },
+        {
+          "empId": "5",
+          "code": "EMP-105",
+          "name": "طارق عثمان المنصور",
+          "jobTitle": "سائق ومندوب توصيل",
+          "department": "الخدمات اللوجستية",
+          "basicSalary": 3800,
+          "housingAllowance": 800,
+          "transportAllowance": 400,
+          "otherAllowance": 150,
+          "overtime": 0,
+          "grossSalary": 5150,
+          "gosiDeduction": 449,
+          "otherDeduction": 0,
+          "totalDeductions": 449,
+          "netSalary": 4701,
+          "bankName": "البنك العربي",
+          "iban": "SA0340000999888777666555"
+        }
+      ],
+      "isPosted": false,
+      "postedAt": "2026-10-23T09:57:08.198Z",
+      "journalEntryNumber": null
+    }
+  ],
+  "stockTransfers": [
+    {
+      "id": 1001,
+      "transferNo": "TRF-01001",
+      "transferDate": "2026-10-23T12:01:53.181Z",
+      "fromBranchId": 1,
+      "fromBranchName": "المركز الرئيسي - الرياض",
+      "toBranchId": 2,
+      "toBranchName": "فرع عنيزة",
+      "createdBy": "مدير النظام: الحسن",
+      "status": "Confirmed",
+      "notes": "شحنة تجريبية",
+      "items": [
+        {
+          "code": "1001",
+          "name": "فيكس",
+          "unit": "حبة",
+          "qty": 5,
+          "cost": 35
+        }
+      ],
+      "confirmedDate": "2026-10-23T12:02:00.153Z",
+      "confirmedBy": "أمين مستودع عنيزة: فهد",
+      "journalEntryNumber": "JV-TRF-01001"
+    },
+    {
+      "id": 1002,
+      "transferNo": "TRF-01002",
+      "transferDate": "2026-10-23T12:04:14.473Z",
+      "fromBranchId": 1,
+      "fromBranchName": "المركز الرئيسي - الرياض",
+      "toBranchId": 3,
+      "toBranchName": "فرع بريدة",
+      "createdBy": "مدير النظام: الحسن",
+      "status": "Confirmed",
+      "notes": "تحويل شحنة لبريدة",
+      "items": [
+        {
+          "code": "1002",
+          "name": "نخلة واشنطونيا",
+          "unit": "حبة",
+          "qty": 4,
+          "cost": 150
+        }
+      ],
+      "confirmedDate": "2026-10-23T12:04:14.498Z",
+      "confirmedBy": "أمين مستودع بريدة: خالد",
+      "journalEntryNumber": "JV-TRF-01002"
+    }
+  ],
+  "masterData": {
+    "itemGroups": [
+      {
+        "code": "1",
+        "nameAr": "تمور فاخرة",
+        "nameEn": "Luxury Dates"
+      },
+      {
+        "code": "2",
+        "nameAr": "تمور ملكية",
+        "nameEn": "Royal Dates"
+      },
+      {
+        "code": "3",
+        "nameAr": "مشتقات التمور",
+        "nameEn": "Date Derivatives"
+      },
+      {
+        "code": "4",
+        "nameAr": "أعلاف ومستلزمات",
+        "nameEn": "Feeds & Supplies"
+      }
+    ],
+    "units": [
+      {
+        "code": "1",
+        "nameAr": "كرتون",
+        "nameEn": "Carton"
+      },
+      {
+        "code": "2",
+        "nameAr": "كيلو",
+        "nameEn": "Kg"
+      },
+      {
+        "code": "3",
+        "nameAr": "عبوة",
+        "nameEn": "Pack"
+      },
+      {
+        "code": "4",
+        "nameAr": "حبة",
+        "nameEn": "Piece"
+      },
+      {
+        "code": "5",
+        "nameAr": "شد",
+        "nameEn": "Bundle"
+      }
+    ],
+    "currencies": [
+      {
+        "code": "1",
+        "nameAr": "ريال سعودي",
+        "symbol": "SAR",
+        "rate": 1,
+        "isLocal": true
+      },
+      {
+        "code": "2",
+        "nameAr": "دولار أمريكي",
+        "symbol": "USD",
+        "rate": 3.75,
+        "isLocal": false
+      },
+      {
+        "code": "3",
+        "nameAr": "درهم إماراتي",
+        "symbol": "AED",
+        "rate": 1.02,
+        "isLocal": false
+      }
+    ],
+    "stores": [
+      {
+        "code": "1",
+        "nameAr": "المستودع الرئيسي - الرياض",
+        "keeper": "فهد العتيبي",
+        "branch": "المركز الرئيسي"
+      },
+      {
+        "code": "2",
+        "nameAr": "مستودع التبريد - عنيزة",
+        "keeper": "صالح القصيمي",
+        "branch": "فرع عنيزة"
+      },
+      {
+        "code": "3",
+        "nameAr": "مستودع التوزيع - بريدة",
+        "keeper": "محمد الحربي",
+        "branch": "فرع بريدة"
+      }
+    ],
+    "salesReps": [
+      {
+        "code": "1",
+        "nameAr": "سعود الدوسري",
+        "phone": "0501122334",
+        "commission": 2.5,
+        "target": 150000
+      },
+      {
+        "code": "2",
+        "nameAr": "عبدالرحمن الشهري",
+        "phone": "0554433221",
+        "commission": 3,
+        "target": 200000
+      }
+    ],
+    "costCenters": [
+      {
+        "code": "101",
+        "nameAr": "المركز الرئيسي - الإدارة",
+        "budget": 250000
+      },
+      {
+        "code": "102",
+        "nameAr": "مشروع توريد تمور القصيم",
+        "budget": 500000
+      },
+      {
+        "code": "103",
+        "nameAr": "خط إنتاج الدبس والطحينة",
+        "budget": 180000
+      }
+    ],
+    "assets": [
+      {
+        "code": "AST-01",
+        "nameAr": "سيارة نقل مبرد إيسوزو",
+        "purchaseDate": "2025-01-15",
+        "cost": 145000,
+        "depRate": 15,
+        "accountCode": "1202"
+      },
+      {
+        "code": "AST-02",
+        "nameAr": "خط تغليف وتعبئة آلي",
+        "purchaseDate": "2025-03-10",
+        "cost": 210000,
+        "depRate": 10,
+        "accountCode": "1201"
+      }
+    ],
+    "locations": [
+      {
+        "code": "LOC-A1",
+        "nameAr": "الرف A1 - صالة التبريد الأولى"
+      },
+      {
+        "code": "LOC-B2",
+        "nameAr": "الرف B2 - مستودع الكراتين"
+      }
+    ],
+    "accountGroups": [
+      {
+        "code": "1",
+        "nameAr": "الأصول",
+        "nameEn": "Assets"
+      },
+      {
+        "code": "2",
+        "nameAr": "الخصوم والالتزامات",
+        "nameEn": "Liabilities"
+      },
+      {
+        "code": "3",
+        "nameAr": "حقوق الملكية",
+        "nameEn": "Equity"
+      },
+      {
+        "code": "4",
+        "nameAr": "الإيرادات",
+        "nameEn": "Revenues"
+      },
+      {
+        "code": "5",
+        "nameAr": "المصروفات",
+        "nameEn": "Expenses"
+      }
+    ]
+  }
+}
